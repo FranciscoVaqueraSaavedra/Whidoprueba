@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+ body {
+    background-color: #e5e5e7;
+ } 
+}
+
+.slick-slide > div {
+   margin: 0 10px;
+}
+
+/* Estilo para la tarjeta girada */
+.is-flipped {
+   transform: rotateY(180deg);
+ }
+ 
+ /* Agregar animación de transición para un efecto suave */
+ .card-container {
+   transition: transform 0.6s ease;
+ }
+ 
+
+ 
