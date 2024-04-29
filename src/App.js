@@ -1,8 +1,7 @@
 import React from 'react';
 import TarjetaReporte from './TarjetaReporte';
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
 import ReportesEnCurso from './ReportesEnCurso';
 import TarjetaEnvioReporte from './TarjetaEnvioReporte';
 import TarjetaCalidad from './TarjetaCalidad';
