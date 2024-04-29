@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import ReactCardFlip from 'react-card-flip';
 import ReportesEnCurso from './ReportesEnCurso';
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+
 
 const TarjetaReporte = ({ index }) => {
   const [isFlipped, setIsFlipped] = useState(false);
